@@ -501,3 +501,21 @@ footer{
 .social-links li a:hover{
 	color: #009fff;
 }
+
+.back-image{
+	object-fit: cover;
+  height: 100%;
+  width: 100%;
+  opacity: 0.3;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.hover-animated .circle {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
