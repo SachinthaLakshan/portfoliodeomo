@@ -1,0 +1,503 @@
+/*------------------------------------------------------
+Table of Contents
+--------------------------------------------------------
+0. Reset
+1. General Styles
+2. Navigation
+3. Home Page
+4. About & Contact Page
+5. Works
+6. Single Project
+7. Footer
+
+------------------------------------------------------*/
+
+
+/*-----------------------------------------------------
+Reset
+------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+/*-----------------------------------------------------
+General Styles
+------------------------------------------------------*/
+
+*{
+	box-sizing: border-box;
+}
+
+html {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 62.5%; 
+}
+
+ul{
+	list-style: none;
+}
+
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+
+.container-full{
+	width: 100%;
+}
+
+.img-responsive{
+	display: block;
+ 	max-width: 100%;
+    height: auto;
+}
+
+a{
+	text-decoration: none;
+	transition: all .2s linear;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #009fff;
+}
+
+.clearfix{
+	clear: both;
+}
+
+/*-----------------------------------------------------
+Navigation
+------------------------------------------------------*/
+
+header{
+	height: 85px;
+	line-height: 85px; /* line-heigh = height */
+}
+
+.logo{
+	color: #009fff;
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.7em;
+	font-weight: 600;
+	letter-spacing: 2px;
+	float: left;
+}
+
+.logo:hover{
+	color: #007cff;
+}
+
+.nav-button{
+	display: none;
+	float: right;
+}
+
+.ti-menu{
+	color: #121212;
+	font-size: 2.5em;
+	line-height: 85px;
+}
+
+.ti-menu:hover{
+	color: #121212;
+}
+
+.close-btn{
+	display: none;
+}
+
+.ti-close{
+	color: #121212;
+	position: absolute;
+	right: 37px;
+	top: 37px;
+	font-size: 1.7em;
+}
+
+.ti-close:hover{
+	color: #009fff;
+}
+
+.main-menu{
+	float: right;
+}
+
+.main-menu > li{
+	font-size: 1.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+	position: relative;
+	float: left;
+	margin-left: 60px;
+}
+
+.main-menu li a{
+	color: #222;
+}
+
+.main-menu li a:hover{
+	color: #009fff;
+}
+
+.main-menu li ul {
+	display: none;
+	position: absolute;
+	top: 85px;
+	left: 0;
+	z-index: 999;
+	min-width: 190px;	
+	padding: 12px 30px;
+	line-height: 40px;
+	background: #fff;
+	box-shadow: 0 5px 10px rgba(0,0,0,.3);
+	text-align: left;
+}
+
+.main-menu li:hover ul {
+	display: block;
+}
+
+.sub-menu li a{
+	font-size: .9em;
+	letter-spacing: 2px;
+}
+
+/*-----------------------------------------------------
+Home Page
+------------------------------------------------------*/
+
+.hero-homepage, .hero-about,
+.hero-contact{
+	background: #fdc;
+	position: relative;
+	width: 100%;
+	height: 600px;
+	z-index: 0;
+}
+
+.hero-content{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	text-align: center;
+}
+
+.hero-content h1{
+	font-size: 6.3em;
+	font-weight: 300;
+	letter-spacing: 15px;
+	line-height: 1.7;
+	text-transform: uppercase;
+	padding-bottom:30px;
+}
+
+.hero-content h2{
+	color: #252525;
+	font-size: 1.9em;
+	font-weight: 300;
+	letter-spacing: 5px;
+	line-height: 2.5;
+	text-transform: uppercase;
+}
+
+/*-----------------------------------------------------
+About & Contact
+------------------------------------------------------*/
+
+.about-us{
+	position: relative;
+	margin: 150px auto;
+	width: 70%;
+}
+
+.contact-us{
+	margin: 120px auto;
+	width: 60%;
+}
+
+.about-us-info, .contact-us-content{
+	font-size:1.8em;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2.1;
+	letter-spacing: .5px;
+}
+
+.about-us-info{
+	padding-top: 75px;
+}
+
+.contact-us-content{
+	font-size:2.2em;
+}
+
+.about-us-icon{
+	font-size: 50px;
+	position: absolute;
+	transform: translateX(-50%);
+	left:50% ;
+}
+
+.services, .contacts{
+	background: #99d9ff;
+	width: 100%;
+	padding: 150px 0;
+}
+
+.contacts{
+	padding: 100px 0;
+}
+
+.services-item, .contact-item{
+	float: left;
+	width:33.33%;
+	text-align: center;
+	padding-right: 15px;
+  	padding-left: 15px;
+}
+
+.services-icon, .contact-icon{
+	font-size: 35px;
+}
+
+.services-item h3, .contact-item h3{
+	font-size: 1.4em;
+	font-weight: 400;
+	letter-spacing: 2.3px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.services-item p, .contact-item p{
+	font-size: 1.25em;
+	line-height: 1.8;
+	letter-spacing: 1.1px;
+}
+
+/*-----------------------------------------------------
+Works
+------------------------------------------------------*/
+
+.hero-portfolio{
+	color: #222;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.hero-portfolio h1{
+	font-size: 5em;
+	text-transform: capitalize;
+	margin-bottom:25px;
+}
+
+.hero-portfolio p{
+	font-size: 1.7em;
+	line-height: 2;
+	letter-spacing: .3px;
+	width: 50%;
+	margin: auto;
+}
+
+.works-item{
+	float: left;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.works-item img{
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+	display: block;						
+}
+
+.works_2-columns .works-item{
+	width: 50%;
+	height: 60vh;
+}
+
+.works_3-columns .works-item{
+	width: 33.33%;
+	height: 45vh;
+}
+
+.works_4-columns .works-item{
+	width: 25%;
+	height: 35vh;
+}
+
+.works-item-overlay{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	opacity: 0;
+	transition: all .3s linear;
+}
+
+.works-item:hover .works-item-overlay{
+	opacity: 1;
+}
+
+.works-item-info{
+	 position: absolute;
+	 transform: translate(-50%, -50%);
+     top: 50%;
+     left: 50%;
+     z-index: 2;
+     text-align: center;
+     width: 100%;
+}
+
+.works-info-title{
+	color: #333;
+	font-size: 2.3em;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-bottom: 15px;
+}
+
+.works-info-category{
+	color: #009fff;
+	font-size: 1.2em;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+}
+
+.works_2-columns a:hover,
+.works_3-columns a:hover,
+.works_4-columns a:hover{
+	color: inherit;
+}
+
+
+/*-----------------------------------------------------
+Single Project
+------------------------------------------------------*/
+
+.single-project{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.tag{
+	color: #009fff;
+	font-size: 1.2em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 3.5px;
+}
+
+.tag:hover{
+	color: #007cff;
+}
+
+.single-project h1{
+	color: #333;
+	font-size: 7.5em;
+	letter-spacing: 2px;
+	padding: 20px 0 70px 0;
+}
+
+.single-project-info{
+	margin: 90px auto;
+	width: 80%;
+}
+
+.single-project-info h2{
+	color: #009fff;
+	font-size: 1.1em;
+	font-weight: 600;
+	text-align: left;
+	padding-bottom: 17px;
+	letter-spacing: 4.5px;
+	text-transform: uppercase;
+}
+
+.single-project-info p{
+	font-size: 1.9em;
+	text-align: left;
+	line-height: 2.1;
+	letter-spacing: .5px;
+	margin: 0 auto 30px auto;
+}
+
+.single-project > img:nth-of-type(3){
+	float: left;
+	width: 50%;
+	padding-right:15px;
+}
+
+.single-project > img:nth-of-type(4){
+	float: left;
+	width: 50%;
+	padding-left:15px;
+}
+
+/*-----------------------------------------------------
+Footer
+------------------------------------------------------*/
+
+footer{
+	height: 85px;
+	line-height: 85px;
+}
+
+.copyright{
+	float: left;
+	font-size: 1.3em;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+	margin-bottom: 0;
+}
+
+.social-links{
+	float: right;
+}
+
+.social-links li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.social-links li a{
+	color: #000;
+	font-size: 1.4em;
+}
+
+.social-links li a:hover{
+	color: #009fff;
+}
