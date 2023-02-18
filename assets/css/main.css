@@ -512,10 +512,3 @@ footer{
   top: 0;
   right: 0;
 }
-
-.hover-animated .circle {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	display: block;
-}
