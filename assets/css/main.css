@@ -73,6 +73,11 @@ ul{
     height: auto;
 }
 
+.img-responsive-video{
+	display: block;
+ 	max-width: 100%;
+}
+
 a{
 	text-decoration: none;
 	transition: all .2s linear;
@@ -527,5 +532,9 @@ footer{
 	font-weight: 900;
 	letter-spacing: 2px;
 	padding-bottom: 15px;
+	font-family: MuseoModerno, sans-serif;
+}
+
+h1{
 	font-family: MuseoModerno, sans-serif;
 }
