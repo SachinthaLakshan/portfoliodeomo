@@ -515,3 +515,9 @@ footer{
   top: 0;
   right: 0;
 }
+.services-icon-about{
+
+	height: 120px;
+	width: auto;
+	filter: grayscale(100%);
+}
