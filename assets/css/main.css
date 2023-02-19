@@ -521,3 +521,11 @@ footer{
 	width: auto;
 	filter: grayscale(100%);
 }
+
+.my-works-header{
+	font-size: 3vW;
+	font-weight: 900;
+	letter-spacing: 2px;
+	padding-bottom: 15px;
+	font-family: MuseoModerno, sans-serif;
+}
