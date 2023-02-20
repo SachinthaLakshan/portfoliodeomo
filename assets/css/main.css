@@ -236,7 +236,7 @@ About & Contact
 
 .about-us{
 	position: relative;
-	margin: 150px auto;
+	margin: 52px auto;
 	width: 70%;
 }
 
@@ -254,7 +254,7 @@ About & Contact
 }
 
 .about-us-info{
-	padding-top: 75px;
+	padding-top: 300px;
 }
 
 .contact-us-content{
@@ -538,3 +538,73 @@ footer{
 h1{
 	font-family: MuseoModerno, sans-serif;
 }
+
+.header-image-logo{
+	width: 252px;
+	margin-top: 20px;
+	opacity: 0.7;
+}
+.about-us-image{
+	width: 260px;
+}
+
+/* // */
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	resize: vertical;
+  }
+  
+  
+  input[type=submit] {
+	background-color: #4BE3AA;
+	color: #000;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: MuseoModerno, sans-serif;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #1CB079 ;
+  }
+  
+ 
+  
+  .col-25 {
+	float: left;
+	width: 25%;
+	margin-top: 6px;
+  }
+  
+  .col-75 {
+	float: left;
+	width: 100%;
+	margin-top: 6px;
+  }
+  .contact-form{
+	margin: 50px 200px 50px 200px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.contact-form{
+		margin: 25px 20px 25px 20px;
+	  }
+  }
