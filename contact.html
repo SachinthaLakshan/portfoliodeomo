@@ -29,19 +29,13 @@
 
 	<header>
 		<div class="container">
-			<a href="index.html" class="logo">Brandon Stuart</a>
+			<a href="index.html" class="logo"><img class="header-image-logo" src="assets/img/logo.png"></a>
 			<a href="#" onclick="openNav()" class="nav-button"><span class="ti-menu"></span></a>
 			<nav id="navigation">
 			<a href="javascript:void(0)" onclick="closeNav()" class="close-btn"><span class=" ti-close"></span></a>
 				<ul class="main-menu">
 					<li><a href="about.html">about</a></li>
-					<li><a href="2-columns.html">portfolio</a>
-						<ul class="sub-menu">
-							<li><a href="2-columns.html">2 columns</a></li>
-							<li><a href="3-columns.html">3 columns</a></li>
-							<li><a href="4-columns.html">4 columns</a></li>
-							<li><a href="single-project.html">single project</a></li>
-						</ul>
+					<li><a href="2-columns.html">works</a>
 					</li>
 					<li><a href="contact.html">contact</a></li>
 				</ul>
@@ -56,23 +50,31 @@
 		<div class="container-full">
 
 			<div class="hero-contact">
-				<img class="back-image" src="assets\img\callwaygolf.jpg"></img>
 				<div class="hero-content">
 					<h1>Brandon Stuart</h1>
 					<h2>get in touch with us</h2>
 				</div>
 			</div> 
-
-			<div class="contact-us">
-				<div class="container">
-					<div class="contact-us-content">
-						<p>
-							We are always interested in new projects and ideas. If you have an interesting project in mind, do not hesitate to contact us and figure out how we can help.
-						</p>
-					</div>
-				</div> <!-- /.container -->
-			</div>
-			
+					<form  class="contact-form">
+						<div class="row">
+							<div class="col-75">
+								<input type="text" id="fname" name="firstname" placeholder="Your name..">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-75">
+								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-75">
+								<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+							</div>
+						</div>
+						<div class="row">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
 			<div class="contacts">
 
 				<div class="container">
@@ -86,7 +88,7 @@
 					<div class="contact-item">
 						<span class="ti-email contact-icon"></span>
 						<h3>email us</h3>
-						<p>bloom-studio@mail.com</p>
+						<p>brandon@authir.co</p>
 					</div> <!-- /.contact-item -->
 
 					<div class="contact-item">
