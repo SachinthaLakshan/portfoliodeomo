@@ -118,6 +118,9 @@
 /* Start @media(max-width:470px) */
 
 @media (max-width: 470px){
+	.hero-content-home{
+		font-size: 2vh;
+	}
 
 	.hero-content h1{
 		font-size: 5em;
