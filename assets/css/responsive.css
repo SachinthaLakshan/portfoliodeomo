@@ -112,6 +112,9 @@
 	.works_4-columns .works-item{
 		height: 50vh;
 	}
+	.hero-homepage{
+		height: 400px;
+	}
 
 } 
 
@@ -175,5 +178,8 @@
 	.social-links li{
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+	.hero-homepage{
+		height: 300px;
 	}
 } 
