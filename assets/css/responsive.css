@@ -113,7 +113,7 @@
 		height: 60vh;
 	}
 	.hero-homepage{
-		height: 400px;
+		height: 200px;
 	}
 
 } 
@@ -122,7 +122,7 @@
 
 @media (max-width: 470px){
 	.hero-content-home{
-		font-size: 2vh;
+		font-size: 1vh;
 	}
 
 	.hero-content h1{
@@ -180,6 +180,19 @@
 		margin-right: 10px;
 	}
 	.hero-homepage{
-		height: 300px;
+		height: 200px;
+	}
+	.services-icon-con{
+		flex-direction: column;
 	}
 } 
+
+@media (max-width: 940px){
+	.services-icon-con{
+		flex-direction: column;
+	}
+}
+
+.filter-none{
+	filter: none !important;
+}
