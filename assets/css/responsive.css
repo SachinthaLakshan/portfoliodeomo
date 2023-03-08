@@ -113,7 +113,7 @@
 		height: 60vh;
 	}
 	.hero-homepage{
-		height: 200px;
+		height: 250px;
 	}
 
 } 
@@ -123,7 +123,7 @@
 @media (max-width: 470px){
 	.hero-content-home{
 		font-size: 0.8vh;
-    	margin: 0 10px 0 10px;
+    	
 	}
 
 	.hero-content h1{
@@ -181,7 +181,8 @@
 		margin-right: 10px;
 	}
 	.hero-homepage{
-		height: 200px;
+		padding: 0 10px 0 10px;
+		height: 130px;
 	}
 	.services-icon-con{
 		flex-direction: column;
