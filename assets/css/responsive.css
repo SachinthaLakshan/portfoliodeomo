@@ -122,7 +122,8 @@
 
 @media (max-width: 470px){
 	.hero-content-home{
-		font-size: 1vh;
+		font-size: 0.8vh;
+    	margin: 0 10px 0 10px;
 	}
 
 	.hero-content h1{
