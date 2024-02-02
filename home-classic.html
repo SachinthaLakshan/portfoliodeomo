@@ -97,62 +97,50 @@
         
         <!-- hero section starts
 ================================================== -->
-        <section id="home" class="dtr-section hero-section-top-padding"> 
-            
-            <!-- container starts -->
+        <section id="home" class="dtr-section hero-section-top-padding">
             <div class="container"> 
                 
                 <!-- row starts -->
-                <div class="row dtr-pt-100"> 
+                <div class="row dtr-py-100"> 
                     
                     <!-- column 1 starts -->
-                    <div class="col-12 col-lg-7"> 
+                    <div class="col-12 col-md-6"> 
                         
-                        <!-- wrapper for z index to slider -->
-                        <div class="position-relative z-index bg-white"> 
+                        <!--===== image slider starts =====-->
+                        <div class="dtr-slick-slider dtr-image-slider dtr-slick-has-arrows slick-arrows-inside arrows-color-light"> 
                             
-                            <!--===== image slider starts =====-->
-                            <div class="dtr-slick-slider dtr-image-slider dtr-slick-has-arrows slick-arrows-inside arrows-color-light"> 
-                                
-                                <!-- slide 1 starts -->
-                                <div class="dtr-image-slider-item"> <img src="assets/images/slide-img1.jpg" alt="image"> </div>
-                                <!-- slide 1 ends --> 
-                                
-                                <!-- slide 2 starts -->
-                                <div class="dtr-image-slider-item"> <img src="assets/images/slide-img2.jpg" alt="image"> </div>
-                                <!-- slide 2 ends --> 
-                                
-                                <!-- slide 3 starts -->
-                                <div class="dtr-image-slider-item"> <img src="assets/images/slide-img1.jpg" alt="image"> </div>
-                                <!-- slide 3 ends --> 
-                                
-                            </div>
-                            <!--===== image slider ends =====--> 
+                            <!-- slide 1 starts -->
+                            <div class="dtr-image-slider-item"> <img src="assets/images/slide-img1.jpg" alt="image"> </div>
+                            <!-- slide 1 ends -->
+                            
+                            <!-- slide 2 starts -->
+                            <div class="dtr-image-slider-item"> <img src="assets/images/slide-img2.jpg" alt="image"> </div>
+                            <!-- slide 2 ends -->
+                            
+                            <!-- slide 3 starts -->
+                            <div class="dtr-image-slider-item"> <img src="assets/images/slide-img1.jpg" alt="image"> </div>
+                            <!-- slide 3 ends -->
                             
                         </div>
-                        <!-- wrapper for z index to slider ends --> 
+                        <!--===== image slider ends =====--> 
                         
                     </div>
                     <!-- column 1 ends --> 
                     
                     <!-- column 2 starts -->
-                    <div class="col-12 col-lg-5">
-                        <div class="dtr-pt-50 dtr-pl-20"> 
-                            
-                            <!-- rotating image starts -->
-                            <div class="rotating-img-wrapper dtr-md-display-none">
-                                <div class="rotating-img-inner"> 
-                                    <!-- rotating image --> 
-                                    <img src="assets/images/swirl.svg" alt="image" class="rotating-img"> 
-                                    <!-- static smiley --> 
-                                    <img src="assets/images/smiley.svg" alt="image" class="static-img"> </div>
-                            </div>
-                            <!-- rotating image ends -->
-                            
+                    <div class="col-12 col-md-6">
+                        <div class="dtr-pl-20 dtr-sm-pl-0 dtr-sm-pt-30">
                             <p class="text-size-lg dtr-mb-0">Smiling faces are the ...</p>
                             <h2>best <span class="color-orange">gratitude!</span></h2>
-                            <p class="font-weight-500">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.</p>
+                            <p class="font-weight-500">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam.
+                            <p>
                             <p>Nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat duis autem vel eum iriure.</p>
+                            <ul class="dtr-list-simple dtr-list-hover text-size-sm dtr-mt-20">
+                                <li><i class="icon-mbri-right dtr-mr-10"></i>Magna aliquam erat volutpat</li>
+                                <li><i class="icon-mbri-right dtr-mr-10"></i>Ut wisi enim ad minim veniam</li>
+                                <li><i class="icon-mbri-right dtr-mr-10"></i>Quis nostrud exerci tation</li>
+                                <li><i class="icon-mbri-right dtr-mr-10"></i>Nonummy nibh euismod tincidunt</li>
+                            </ul>
                         </div>
                     </div>
                     <!-- column 2 ends --> 
@@ -161,40 +149,51 @@
                 <!-- row ends --> 
                 
             </div>
-            <!-- container ends --> 
-            
-            <!-- sub section starts - with minus top margin -->
-            <div class="dtr-pt-50 bg-purple dtr-mt-minus170 dtr-md-mt-50">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-lg-5 offset-lg-7">
-                            <div class="dtr-pl-20">
-                                <h6 class="color-white">Subscribe to be notified of latest events</h6>
-                                
-                                <!-- form starts -->
-                                <div class="dtr-mt-30 subscribe-form-wrapper">
-                                    <form id="subscribeform" method="post" action="#">
-                                        <fieldset>
-                                            <div class="subscribe-form-email">
-                                                <input name="email"  class="required email" type="email" placeholder="Your email address">
-                                                <p class="subscribe-form-submit">
-                                                    <button type="submit" class="dtr-btn btn-grad-orange"> Subscribe </button>
-                                                </p>
-                                            </div>
-                                        </fieldset>
-                                    </form>
-                                </div>
-                                <!-- form ends --> 
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- sub section ends --> 
-            
         </section>
         <!-- hero section ends
+================================================== --> 
+        
+        <!-- subscribe section starts
+================================================== -->
+        <section id="subscribe" class="dtr-section dtr-py-50 bg-pink">
+            <div class="container">
+            
+            	<!-- row starts -->
+                <div class="row d-flex align-items-center justify-content-between">
+                
+                	<!-- column 1 starts -->
+                    <div class="col-12 col-md-7">
+                        <p class="text-size-lg">Subscribe to be notified of latest events</p>
+                    </div>
+                    <!-- column 1 ends -->
+                    
+                    <!-- column 2 starts -->
+                    <div class="col-12 col-md-5"> 
+                        
+                        <!-- form starts -->
+                        <div class="subscribe-form-wrapper">
+                            <form id="subscribeform" method="post" action="#">
+                                <fieldset>
+                                    <div class="subscribe-form-email">
+                                        <input name="email"  class="required email" type="email" placeholder="Your email address">
+                                        <p class="subscribe-form-submit">
+                                            <button type="submit" class="dtr-btn btn-grad-orange"> Subscribe </button>
+                                        </p>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <!-- form ends --> 
+                        
+                    </div>
+                     <!-- column 1 ends -->
+                     
+                </div>
+                <!-- row ends -->
+                
+            </div>
+        </section>
+        <!-- subscribe section ends
 ================================================== --> 
         
         <!-- about section starts
