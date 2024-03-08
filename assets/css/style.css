@@ -402,8 +402,8 @@ ol li, ul li { margin-bottom: 10px; }
 #dtr-header-global.on-scroll { padding: 15px 0; border-width: 0; box-shadow: 0 2px 40px 0 hsla(240,0%,6%,.05); z-index: 999; }
 .dtr-header-right { margin-left: 30px; }
 /*== logo ==*/
-#dtr-header-global .logo-alt, #dtr-header-global.on-scroll .logo-default { display: none; }
-#dtr-header-global.on-scroll .logo-alt, #dtr-header-global .logo-default { display: block; }
+#dtr-header-global .logo-alt, #dtr-header-global.on-scroll .logo-default { display: none;  height: 100px;}
+#dtr-header-global.on-scroll .logo-alt, #dtr-header-global .logo-default { display: block; width: 100px;}
 /*== Menu  ==*/
 .main-navigation { position: relative; margin-right: -20px; padding: 0; }
 .dtr-nav.navbar-nav .nav-link { padding: 10px 20px; font-size: 14px; font-weight:500; letter-spacing: 1px; text-transform: uppercase; }
@@ -668,3 +668,8 @@ transform: rotate(360deg);
 #gmap_canvas { min-height: 400px; padding: 0; margin: 0; }
 .mapouter { position: relative; text-align: left; }
 .gmap_canvas { overflow: hidden; background: none!important; }
+
+.subtext-donate{
+    font-size: 1rem;
+    margin-top: -1rem;
+}
