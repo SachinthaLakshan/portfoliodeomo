@@ -593,7 +593,7 @@ transform: rotate(360deg);
 /*===== blog posts =====*/
 .dtr-post-item { display: table; margin-bottom: 20px; }
 .dtr-post-item:last-child { margin-bottom: 0; }
-.dtr-post-item-img { display: table-cell; vertical-align: top; width: 40%; padding-right: 30px; }
+.dtr-post-item-img { width: 40% !important; max-width: 40% !important;  }
 .dtr-post-item-content { display: table-cell; vertical-align: top; }
 .dtr-post-meta { margin-bottom: 5px; font-size: 14px; letter-spacing: 1px; text-transform: uppercase; }
 .meta-title { margin-left: 20px; }
@@ -672,4 +672,25 @@ transform: rotate(360deg);
 .subtext-donate{
     font-size: 1rem;
     margin-top: -1rem;
+}
+
+.accordion-about-font-size{
+    font-size: 16px;
+}
+.top-logo-mobile{
+    width: 5rem;
+}
+.bottom-text-testimonials{
+    text-align: end;
+    margin-right: 2rem !important;
+    font-style: italic;
+}
+.testimonials-image{
+    margin-right: 2.5rem;
+    width: 7rem;
+    height: 7rem;
+    
+}
+.responsive-flex{
+    flex-direction: row;
 }

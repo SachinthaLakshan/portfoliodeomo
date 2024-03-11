@@ -40,7 +40,7 @@
         <div class="container"> 
             
             <!-- small devices logo --> 
-            <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a> 
+            <a href="index.html"><img  class="top-logo-mobile" src="assets/images/TST_logo.png" alt="logo"></a> 
             <!-- small devices logo ends --> 
             
             <!-- menu button -->
@@ -74,9 +74,9 @@
                 <div class="main-navigation navbar navbar-expand-lg ml-auto">
                     <ul class="dtr-scrollspy navbar-nav dtr-nav dark-nav-on-load dark-nav-on-scroll">
                         <li class="nav-item"> <a class="nav-link active" href="#home">Home</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#about">Get Involved</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#stories">Stories of Hope</a> </li>
-                        <li class="nav-item"> <a class="nav-link" href="#blog">Blog</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#stories">Founding Contributors</a> </li>
+                        <li class="nav-item"> <a class="nav-link" href="#blog">Testimonials</a> </li>
                         <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
                     </ul>
                 </div>
@@ -114,14 +114,7 @@
                             <!--===== image slider starts =====-->
                             <div class="dtr-slick-slider dtr-image-slider dtr-slick-has-arrows slick-arrows-inside arrows-color-light"> 
                                 
-                                <!-- slide 1 starts -->
-                                <div class="dtr-image-slider-item"> <img src="assets/images/slide-img1.jpg" alt="image"> </div>
-                                <!-- slide 1 ends --> 
-                                
-                                <!-- slide 2 starts -->
-                                <div class="dtr-image-slider-item"> <img src="assets/images/slide-img2.jpeg" alt="image"> </div>
-                                <!-- slide 2 ends --> 
-                                
+                               
                                 <!-- slide 3 starts -->
                                 <div class="dtr-image-slider-item"> <img src="assets/images/slide-img3.jpg" alt="image"> </div>
                                 <!-- slide 3 ends --> 
@@ -200,7 +193,7 @@
         
         <!-- about section starts
 ================================================== -->
-        <section id="about" class="dtr-section dtr-py-50 bg-purple"> 
+        <section id="about1" class="dtr-section dtr-py-50 bg-purple"> 
             
             <!-- dashed divider starts --> 
             <span class="divider-dashed border-purple"></span> 
@@ -286,86 +279,95 @@
         
         <!-- faq section starts
 ================================================== -->
-        <section class="dtr-section dtr-py-100">
+        <section id="about" class="dtr-section dtr-pb-100 pt-5">
             <div class="container"> 
                 
                 <!-- row starts -->
-                <div class="row"> 
+                <div class="col"> 
                     
                     <!-- column 1 starts -->
-                    <div class="col-12 col-md-6"> 
+                    <div class="w-full"> 
                         
                         <!-- intro -->
-                        <h2>How we help?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-                        
-                        <!-- accordion starts -->
-                        <div class="dtr-accordion accordion" id="accord-index1"> 
+                        <h2>The Sitting Tree</h2>
+                        <p class="mt-4">Founded by Brandon Stuart, Erik Lima and Vince Villanueva, The Sitting Tree's goal is straight forward: lend a helping hand to disadvantaged families in need. Whatever the ailment may be, we acknowledge that when an economic, medical, or other form of hardship affects a specific individual, their family members suffer along their side. Our organization identifies ways to help these families as a whole, and allows, even if only temporarily, a feeling of positive empowerment for those under strain. Our projects include giving out groceries for meals during holiday seasons, providing assistance with transportation costs to hospital visits, and donating school supplies to underprivileged families with children in elementary school, among multiple other outreach projects.</p>
+                        <p class="mt-4">"The Sitting Tree" is an actual place where one of our founders would go to focus and think proactively. A fallen tree offered the perfect seat for reflection and creative contemplation. We believe that everyone has a version of a Sitting Tree in their own lives, whether it is a place, an activity or a person -- a refuge where problems diminish and solutions emerge. This idea is embodied through The Sitting Tree as we lend a helping hand in scenarios where one is greatly needed.</p>
+                        <p class="mt-4">Whether through one of our annual programs, or a case-by-case basis, our endless allegiance to this effort, combined with a vision of bringing a creative touch to charitable work, are the roots of this organization.</p>
+                        <p class="my-4">Click on The Sitting Tree founders below to find out more information about them.</p>
+                    </div>
+                    <!-- accordion starts -->
+                    <div class="dtr-accordion accordion" id="accord-index1"> 
                             
-                            <!-- accordion tab 1 starts -->
-                            <div class="card">
-                                <div class="card-header" id="accord-index1-heading1">
-                                    <h5 class="dtr-mb-0">
-                                        <button class="dtr-btn accordion-btn-link" type="button" data-toggle="collapse" data-target="#accord-index1-collapse1" aria-expanded="true" aria-controls="accord-index1-collapse1">Offering encouragement</button>
-                                    </h5>
-                                </div>
-                                <div id="accord-index1-collapse1" class="collapse show" aria-labelledby="accord-index1-heading1" data-parent="#accord-index1">
-                                    <div class="card-body">Lorem text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Dummy texts have been in use by typesetters since the 16th century.</div>
+                        <!-- accordion tab 1 starts -->
+                        <div class="card">
+                            <div class="card-header" id="accord-index1-heading1">
+                                <h5 class="dtr-mb-0">
+                                    <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse1" aria-expanded="true" aria-controls="accord-index1-collapse1">Brandon Stuart</button>
+                                </h5>
+                            </div>
+                            <div id="accord-index1-collapse1" class="collapse " aria-labelledby="accord-index1-heading1" data-parent="#accord-index1">
+                                <div class="card-body">
+                                    <ul class="ml-4 accordion-about-font-size">
+                                        <li>Hometown: Newhall, CA</li>
+                                        <li>Favorite Quote: "The critic killed the artist before he was born" - Jay Buchanan</li>
+                                        <li>Fun Facts: Brandon is the oldest of five boys in a family of 8. He has self published a book and toured internationally with a rock band as a guitarist.</li>
+                                        <li>Professional Background: After graduating from UC San Diego with a degree in Economics, Brandon spent a few years working in marketing at DreamWorks Animation, and was credited for his efforts on such films as Shrek the Third and Bee Movie. After his time at DreamWorks, Brandon moved into the TV world as a Marketing Manager at E! Entertainment. At E! Brandon focused on brainstorming creative packages for advertisers and then seeing them come to life. Most recently, Brandon has transitioned to serve as the creative lead for a social media agency called Fanscape.Professional Background: After graduating from UC San Diego with a degree in Economics, Brandon spent a few years working in marketing at DreamWorks Animation, and was credited for his efforts on such films as Shrek the Third and Bee Movie. After his time at DreamWorks, Brandon moved into the TV world as a Marketing Manager at E! Entertainment. At E! Brandon focused on brainstorming creative packages for advertisers and then seeing them come to life. Most recently, Brandon has transitioned to serve as the creative lead for a social media agency called Fanscape.</li>
+                                    </ul>
                                 </div>
                             </div>
-                            <!-- accordion tab 1 ends --> 
-                            
-                            <!-- accordion tab 2 starts -->
-                            <div class="card">
-                                <div class="card-header" id="accord-index1-heading2">
-                                    <h2 class="dtr-mb-0">
-                                        <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse2" aria-expanded="false" aria-controls="accord-index1-collapse2">Sharing comfort & joy</button>
-                                    </h2>
-                                </div>
-                                <div id="accord-index1-collapse2" class="collapse" aria-labelledby="accord-index1-heading2" data-parent="#accord-index1">
-                                    <div class="card-body">Lorem text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Dummy texts have been in use by typesetters since the 16th century.</div>
-                                </div>
-                            </div>
-                            <!-- accordion tab 2 ends --> 
-                            
-                            <!-- accordion tab 3 starts -->
-                            <div class="card">
-                                <div class="card-header" id="accord-index1-heading3">
-                                    <h2 class="dtr-mb-0">
-                                        <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse3" aria-expanded="false" aria-controls="accord-index1-collapse3">Promoting positive living</button>
-                                    </h2>
-                                </div>
-                                <div id="accord-index1-collapse3" class="collapse" aria-labelledby="accord-index1-heading3" data-parent="#accord-index1">
-                                    <div class="card-body">Lorem text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Dummy texts have been in use by typesetters since the 16th century.</div>
-                                </div>
-                            </div>
-                            <!-- accordion tab 3 ends --> 
-                            
                         </div>
-                        <!-- accordion ends --> 
+                        <!-- accordion tab 1 ends --> 
+                        
+                        <!-- accordion tab 2 starts -->
+                        <div class="card">
+                            <div class="card-header" id="accord-index1-heading2">
+                                <h2 class="dtr-mb-0">
+                                    <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse2" aria-expanded="false" aria-controls="accord-index1-collapse2">Erik Lima</button>
+                                </h2>
+                            </div>
+                            <div id="accord-index1-collapse2" class="collapse" aria-labelledby="accord-index1-heading2" data-parent="#accord-index1">
+                                <div class="card-body">
+                                    <ul class="ml-4 accordion-about-font-size">
+                                        <li>Hometown: San Diego, CA</li>
+                                        <li>Professional Background: Erik is a financial analyst at Manatt, Phelps & Phillips, working on productivity analysis, client analysis, and budgeting, among other tasks.</li>
+                                        <li>Fun Facts: Erik is a die hard sports fan and regularly finds himself let down by his hometown Padres and Chargers. He also enjoys playing board games and spending time with his family. Erik received his Masters in Business Administration from Pepperdine University in 2008, and before that earned a Bachelors degree in Mathematics from UCLA in 2000. Erik married his wonderful wife Sarah in 2005. They have two daughters, Violet and Daphne.</li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion tab 2 ends --> 
+                        
+                        <!-- accordion tab 3 starts -->
+                        <div class="card">
+                            <div class="card-header" id="accord-index1-heading3">
+                                <h2 class="dtr-mb-0">
+                                    <button class="dtr-btn accordion-btn-link collapsed" type="button" data-toggle="collapse" data-target="#accord-index1-collapse3" aria-expanded="false" aria-controls="accord-index1-collapse3">Vince Villanueva</button>
+                                </h2>
+                            </div>
+                            <div id="accord-index1-collapse3" class="collapse" aria-labelledby="accord-index1-heading3" data-parent="#accord-index1">
+                                <div class="card-body">
+                                    <ul class="ml-4 accordion-about-font-size">
+                                        <li>Hometown: Kingsburg, CA</li>
+                                        <li>Favorite Quote: "Things turn out best for people who make the best out of the way things turn out" - John Wooden</li>
+                                        <li>Personal Interests: Traveling, finding locations where movies and TV shows were shot, watching reality television.</li>
+                                        <li>Your most inspirational figure: I have two. One would be my parents for teaching me to always finish what I start, never let anyone stop me from doing what I want to do and showing me how to treat others with respect, love and kindness. The other person would be Larry Johnson (former Kingsburg High School Music Teacher) who always taught me that if you are passionate about something, then there is no way that fire will go out. If it does, then it wasn't really a passion to begin with.</li>
+                                        <li>Professional Background: Vince is the Music Licensing and Clearance Associate of Bunim/Murray Productions, overseeing the proper use of music for shows such as "The Real World", "Keeping Up With The Kardashians" and "The Bad Girls Club". Before assuming his current position in August 2009, Vince was the Music Clearance Coordinator at DreamWorks Studios in their Film Music Department where he worked on all of their live-action and animated features in addition to working on trailers and DVDs. Prior to that, he handled Music Licensing for Fox's "American Idol". Vince has performed and toured as a woodwind player with the Santa Monica Civic Light Opera for The Sound of Music, My Fair Lady, Guys & Dolls and Bye Bye Birdie. The first one in his family to go to college, Vince graduated cum laude from UCLA in 1998 where he earned a bachelor's degree in music/education.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion tab 3 ends --> 
                         
                     </div>
-                    <!-- column 1 ends --> 
-                    
-                    <!-- column 2 starts -->
-                    <div class="col-12 col-md-6 dtr-sm-mt-30"> 
+                    <!-- accordion ends --> 
+                    <div class="w-full"> 
                         
                         <!-- video box starts -->
-                        <div class="dtr-video-box"> 
-                            
-                            <!-- overlay -->
-                            <div class="dtr-overlay"></div>
-                            
+                        <div class="dtr-video-box">            
+
                             <!-- image --> 
-                            <img src="assets/images/slide-img1.jpg" alt="image"> 
-                            
-                            <!-- video button starts -->
-                            <div class="dtr-video-button-wrapper">
-                                <div class="color-white"> <a class="dtr-video-popup dtr-video-button btn-grad-orange" data-autoplay="true" data-vbtype="video" href="https://www.youtube.com/watch?v=kuceVNBTJio"></a> </div>
-                                <h6 class="color-white dtr-mt-10">View Video</h6>
-                            </div>
-                            <!-- video button ends --> 
-                            
+                            <img src="assets/images/aboutimage.jpg" alt="image">                         
                         </div>
                         <!-- video box ends --> 
                         
@@ -382,8 +384,10 @@
         
         <!-- stories section starts
 ================================================== -->
-        <section id="stories" class="dtr-section dtr-py-100 bg-pink">
+        <section id="stories" class="dtr-section dtr-pb-100 pt-4 bg-pink">
             <div class="container">
+                <h2>Founding Contributors</h2>
+                <p>The Sitting Tree would like to acknowledge the following list of founding contributors for making this organization possible:</p>
                 <div class="row">
                     <div class="col-12 col-md-12"> 
                         
@@ -394,25 +398,50 @@
                             <div class="dtr-case"> 
                                 
                                 <!-- row starts -->
-                                <div class="row d-flex align-items-center"> 
+                               
+                                   
+                                    <div class="w-full">
+                                        <div class="dtr-case-content d-flex responsive-flex align-items-center justify-content-around">
+                                            <ul>
+                                                <li>
+                                                    <h4>MARK & NORA BULLOCK</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>DAN & AMY HOWES</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>THE BOWSER FAMILY</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>DENNIS AND JANIS YOUNG</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>THE LYNN FAMILY</h4>
+                                                </li>
+                                            </ul>
+                                            <ul>
+                                                <li>
+                                                    <h4>THE FOWLER & PERELLA FAMILIES</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>THE TELLER FAMILY</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>RENE & BETHANY HARNOIS</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>THE VILLANUEVA FAMILY</h4>
+                                                </li>
+                                                <li>
+                                                    <h4>THE HAYGOOD FAMILY</h4>
+                                                </li>
+                                            </ul>
                                     
-                                    <!-- column 1 starts -->
-                                    <div class="col-12 col-md-5"> <img src="assets/images/slide-img1.jpg" alt="image"> </div>
-                                    <!-- column 1 ends --> 
                                     
-                                    <!-- column 2 starts -->
-                                    <div class="col-12 col-md-7">
-                                        <div class="dtr-case-content">
-                                            <h6 class="text-size-md-alt font-weight-500 color-orange">Stories of hope</h6>
-                                            <h4>Nike Product Distribution</h4>
-                                            <p>Nike Product Distribution: This December, we are distributing over $250,000 worth of Nike product to families in need to give them a boost during the holidays!</p>
-                                            <a href="#" class="text-link font-weight-500"></a> </div>
+                                            <a href="#" class="text-link font-weight-500"></a>
+                                        </div>
                                     </div>
-                                    <!-- column 2 ends --> 
-                                    
-                                </div>
-                                <!-- row ends --> 
-                                
+                        
                             </div>
                             <!--== slide 1 ends ==--> 
                             
@@ -420,22 +449,47 @@
                             <div class="dtr-case"> 
                                 
                                 <!-- row starts -->
-                                <div class="row d-flex align-items-center"> 
-                                    
-                                    <!-- column 1 starts -->
-                                    <div class="col-12 col-md-5"> <img src="assets/images/slide-img2.jpeg" alt="image"> </div>
-                                    <!-- column 1 ends --> 
-                                    
-                                    <!-- column 2 starts -->
-                                    <div class="col-12 col-md-7">
-                                        <div class="dtr-case-content">
-                                            <h6 class="text-size-md-alt font-weight-500 color-orange">Stories of hope</h6>
-                                            <h4>August 6-10, 2012 - Surf 4 Kidz Summer Camp</h4>
-                                            <p>One of our favorite annual events, the Surf 4 Kidz summer camp combines a charitable fundraiser with the opportunity to learn how to surf! Camp founder Paul Leach conducts this camp each year along with a very special closing ceremony. All of the proceeds go to The Sitting Tree's annual Thanksgiving grocery event that helps hundreds of people enjoy a Thanksgiving meal they would not have otherwise. Big thanks to Paul for all his hard work!</p>
-                                            <a href="#" class="text-link font-weight-500"></a> </div>
+                                <div class="w-full">
+                                    <div class="dtr-case-content d-flex responsive-flex align-items-center justify-content-around">
+                                
+                                        <ul>
+                                            <li>
+                                                <h4>MATT PAGEL</h4>
+                                            </li>
+                                            <li>
+                                                <h4>TIM, PAM, AND BREE MCGEE</h4>
+                                            </li>
+                                            <li>
+                                                <h4>ANN KAATZ</h4>
+                                            </li>
+                                            <li>
+                                                <h4>PATRICK & VALERIE LYNCH</h4>
+                                            </li>
+                                            <li>
+                                                <h4>MT STUART & COMPANY</h4>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <h4>KATHY MANDATO</h4>
+                                            </li>
+                                            <li>
+                                                <h4>KRISTIN ZIMMERMAN</h4>
+                                            </li>
+                                            <li>
+                                                <h4>BRET & REBEKAH INGRAHAM</h4>
+                                            </li>
+                                            <li>
+                                                <h4>TIM & VICKI LYNCH</h4>
+                                            </li>
+                                            <li>
+                                                <h4>MIKE & TERI STUART</h4>
+                                            </li>
+                                        </ul>
+                                
+                                
+                                        <a href="#" class="text-link font-weight-500"></a>
                                     </div>
-                                    <!-- column 2 ends --> 
-                                    
                                 </div>
                                 <!-- row ends --> 
                                 
@@ -446,26 +500,30 @@
                             <div class="dtr-case"> 
                                 
                                 <!-- row starts -->
-                                <div class="row d-flex align-items-center"> 
-                                    
-                                    <!-- column 1 starts -->
-                                    <div class="col-12 col-md-5"> <img src="assets/images/slide-img1.jpg" alt="image"> </div>
-                                    <!-- column 1 ends --> 
-                                    
-                                    <!-- column 2 starts -->
-                                    <div class="col-12 col-md-7">
-                                        <div class="dtr-case-content">
-                                            <h6 class="text-size-md-alt font-weight-500 color-orange">Stories of hope</h6>
-                                            <h4>Identifying The Damage: The Wounds They Can't See</h4>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonunibh euismod
-                                                tincidunt ut laoreet dolore magna aliquam erat volutpat wisi enim ad minim veniam,
-                                                quis nostrud exerci tation ullamcorper suscipit lobortis nisl at aliquip ex ea commodo
-                                                consequat duis autem vel eum iriure......</p>
-                                            <a href="#" class="text-link font-weight-500"></a> </div>
-                                    </div>
-                                    <!-- column 2 ends --> 
-                                    
-                                </div>
+                                <div class="w-full">
+                                    <div class="dtr-case-content d-flex responsive-flex align-items-center justify-content-around">
+                                        
+                                        <ul>
+                                            <li>
+                                                <h4>JOAN MORRISSEY</h4>
+                                            </li>
+                                            <li>
+                                                <h4>JULIE BUTCHKO</h4>
+                                            </li>
+                                            <li>
+                                                <h4>HILARY DOUGLAS</h4>
+                                            </li>
+                                            <li>
+                                                <h4>THE WISEMAN FAMILY</h4>
+                                            </li>
+                                            <li>
+                                                <h4>RUNSTRONG</h4>
+                                            </li>
+                                        </ul>
+                                        
+                                        
+                                        <a href="#" class="text-link font-weight-500"></a> </div>
+                                </div>  
                                 <!-- row ends --> 
                                 
                             </div>
@@ -500,74 +558,114 @@
         
         <!-- news section starts
 ================================================== -->
-        <section id="blog" class="dtr-section dtr-pt-80 dtr-pb-100">
+        <section id="blog" class="dtr-section dtr-pt-80 dtr-pb-100 w-full">
             <div class="container"> 
                 
                 <!-- heading -->
-                <h2>Latest Projects</h2>
+                <h2>Testimonials</h2>
                 
                 <!-- main row starts -->
-                <div class="row d-flex"> 
+                <div class="d-flex w-full"> 
                     
                     <!-- column 1 starts -->
-                    <div class="col-12 col-lg-8 d-flex">
-                        <div class="clearfix dtr-py-20"> 
+                    <div class="d-flex">
+                        <div class=" dtr-py-20"> 
                             
                             <!-- post 1 starts -->
-                            <div class="dtr-post-item">
-                                <div class="dtr-post-item-img"><img src="assets/images/slide-img1.jpg" alt="image"></div>
+                            <div class="my-2 d-flex flex-row align-items-center justify-content-center">
+                                <img class="testimonials-image"   src="assets/images/Testimonials.png" alt="image">
                                 <div class="dtr-post-item-content">
-                                    <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p>
-                                    <h5 class="dtr-post-item-heading "><a href="#">Nike Product Distribution</a></h5>
-                                    <p>Nike Product Distribution: This December, we are distributing over $250,000 worth of Nike product to families in need to give them a boost during the holidays!</p>
-                                    <a href="#" class="text-link font-weight-500"></a> </div>
+                                    <!-- <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p> -->
+                                    <h5 class="dtr-post-item-heading "><a href="#">It gives us a feeling of hope</a></h5>
+                                    <p>My son and I had a wonderful Thanksgiving and we still have leftovers. And yes, you guys did make our day a little bit more special. It made us feel special to be thought of and gives us a feeling of hope, considering we(me and my son) try hard everyday to be better ourselves and be better people. Hopefully, we will be on the other side someday, giving back what has been giving to us. Thanks for giving us that one day to share and I won't forget that there are generous, caring folks still out there.</p>
+                                    <a href="#" class="text-link font-weight-500"></a> 
+                                    <p class="bottom-text-testimonials">- Melissa Pike</p>
+                                </div>
+                                    
                             </div>
-                            <!-- post 1 ends --> 
-                            
-                            <!-- post 2 starts -->
-                            <div class="dtr-post-item">
-                                <div class="dtr-post-item-img"><img src="assets/images/slide-img3.jpg" alt="image"></div>
+                            <span class="divider-dashed border-purple"></span> 
+                            <div class="my-2 d-flex flex-row align-items-center justify-content-center">
+                                <img class="testimonials-image"   src="assets/images/Testimonials.png" alt="image">
                                 <div class="dtr-post-item-content">
-                                    <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 18</a></p>
-                                    <h5 class="dtr-post-item-heading"><a href="#">Private DreamWorks Animation Screening - Rise of the Guardians</a></h5>
-                                    <p>Private DreamWorks Animation Screening - Rise of the Guardians</p>
-                                    <a href="#" class="text-link font-weight-500"></a> </div>
-                            </div>
-                            <!-- post 2 ends --> 
+                                    <!-- <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p> -->
+                                    <h5 class="dtr-post-item-heading "><a href="#">Thanks for the opportunity to do something like this</a></h5>
+                                    <p>Thanks for the opportunity to do something like this. Isn't it amazing the good ppl can do when they get an idea and get their friends to help carry that idea out. </p>
+                                    <a href="#" class="text-link font-weight-500"></a> 
+                                    <p class="bottom-text-testimonials">- Nick Bastone (Thanksgiving Project Coordinator)</p>
+                                </div>
+                                    
+                            </div> 
+                            <span class="divider-dashed border-purple"></span> 
+                            <div class="my-2 d-flex flex-row align-items-center justify-content-center">
+                                <img class="testimonials-image"   src="assets/images/Testimonials.png" alt="image">
+                                <div class="dtr-post-item-content">
+                                    <!-- <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p> -->
+                                    <h5 class="dtr-post-item-heading "><a href="#">My family was blessed by the Thanksgiving Project</a></h5>
+                                    <p>My family was blessed by the Thanksgiving Project last week. I want to thank all of those involved with the philanthropic and charitable work. The young couple who delivered such a beautiful basket arranged with a feast of Thanksgiving goodies was very kind and sweet. We shared our meal with other family members and friends. For the individual(s) who nominated my family a great big hug for acknowledging our need. Once again, thank you for your kindness and may your organization continue to bless others for many years to come.</p>
+                                    <a href="#" class="text-link font-weight-500"></a> 
+                                    <p class="bottom-text-testimonials">- The Acuna Family</p>
+                                </div>
+                                    
+                            </div> 
+                            <span class="divider-dashed border-purple"></span> 
+                            <div class="my-2 d-flex flex-row align-items-center justify-content-center">
+                                <img class="testimonials-image"   src="assets/images/Testimonials.png" alt="image">
+                                <div class="dtr-post-item-content">
+                                    <!-- <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p> -->
+                                    <h5 class="dtr-post-item-heading "><a href="#">Thanks for taking such an active part of our journey</a></h5>
+                                    <p>The care and excellence by which you fashioned your letters, gifts and notes to us was unbelievable. I will tell you, during a time of trial to receive something lovely is a strength. Thanks for providing that. Thanks for the separate envelopes and thanks for spending so much time to write such a beautiful letter. The gifts of Snapfish and Aaron Bros. was so thoughtful.</p>
+                                    <p>Thanks for taking such an active part of our journey . . . and please thank the board and all those who have labored on our behalf. I am quite sure that you will continue to be a blessing to many families as the years roll by.</p>
+                                    <a href="#" class="text-link font-weight-500"></a> 
+                                    <p class="bottom-text-testimonials">- The Querin Family</p>
+                                </div>
+                                    
+                            </div> 
+                            <span class="divider-dashed border-purple"></span> 
+                            <div class="my-2 d-flex flex-row align-items-center justify-content-center">
+                                <img class="testimonials-image"   src="assets/images/Testimonials.png" alt="image">
+                                <div class="dtr-post-item-content">
+                                    <!-- <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p> -->
+                                    <h5 class="dtr-post-item-heading "><a href="#">I will always be grateful</a></h5>
+                                    <p>I want to express my heartfelt gratitude to The Sitting Tree! I am a single mother of a seven year old and I recently had to undergo brain decompression surgery. A friend of mine contacted this wonderful organization and told them about my situation. Next thing I knew, I was going to have home cooked meals delivered to my home. What a great gift…one less thing I had to worry about!!! The day Vince showed up at my house, not only did he show up with lots of wonderful food, he also brought something for my daughter; movies that we were able to watch together during my recovery.</p>
+                                    <p>Thank you Vince and The Sitting Tree for being there when I was in need, I will always be grateful!!!</p>
+                                    <a href="#" class="text-link font-weight-500"></a> 
+                                    <p class="bottom-text-testimonials">- Charna Stein</p>
+                                </div>
+                                    
+                            </div> 
+                            <span class="divider-dashed border-purple"></span> 
+                            <div class="my-2 d-flex flex-row align-items-center justify-content-center">
+                                <img class="testimonials-image"   src="assets/images/Testimonials.png" alt="image">
+                                <div class="dtr-post-item-content">
+                                    <!-- <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p> -->
+                                    <h5 class="dtr-post-item-heading "><a href="#">Helping families re-connect with hope</a></h5>
+                                    <p>During my time working as a family therapist in a children's hospital, I saw how meaningful "simple" things like complimentary meals and hotel stays were in taking pressure off of family members, not to mention what fun activities could do in helping kids be carefree and not feel like their diagnoses defined them. I appreciate the creativity The Sitting Tree employs in finding solutions that meet the individual needs of the families they work with. By easing these families' burdens, they are helping them re-connect with hope. I believe that when people have hope, they have the capacity to withstand even the greatest of challenges. It has been my pleasure to play even a small part in lifting these families' spirits through my involvement with the Sitting Tree. I look forward to seeing how the caring reach of this organization spreads and touches even more lives for good.</p>
+                                    <a href="#" class="text-link font-weight-500"></a> 
+                                    <p class="bottom-text-testimonials">- Stephanie Haygood, PhD - Marriage and Family Therapy</p>
+                                </div>
+                                    
+                            </div> 
+                            <span class="divider-dashed border-purple"></span> 
+                            <div class="my-2 d-flex flex-row align-items-center justify-content-center">
+                                <img class="testimonials-image"   src="assets/images/Testimonials.png" alt="image">
+                                <div class="dtr-post-item-content">
+                                    <!-- <p class="heading-font-family font-weight-500 dtr-post-meta"> <span class="meta-title color-grey">on</span> <a href="#" class="color-red">December 01 - December  31</a></p> -->
+                                    <h5 class="dtr-post-item-heading "><a href="#">May the goodness that you all spread, come back to you ten-fold</a></h5>
+                                    <p>Thank you, Vince and The Sitting Tree staff, for providing a much welcomed and appreciated "helping hand" by providing a full course dinner for us! In caring for the needs of our child, we rarely go out to eat and it was a wonderful and enjoyable experience to bring dinner "in" - compliments of your organization. Our lives are filled with the necessary constant care of our child with special needs and it is so nice to know that an organization such as yours understands and exists to provide a helping hand and to say, with a thoughtful gesture, "we understand and would like to help".</p>
+                                    <p>What is often misunderstood about families and situations like ours, is that we don't seek sympathy, nor reach out for aide willingly...what we want is understanding, for our situation, for our child's condition and ultimately, for the world to be a more accepting place of those who aren't "typical". Your heartfelt gesture and personal visit were very meaningful, and if I didn't say it, then I think my daughter did, with her intense eye contact and interest in you. In her own way, without words, she was expressing appreciation for your kindness and consideration.</p>
+                                    <p>Please continue to do what you do and know that we wish The Sitting Tree continued success in your mission to "lessen the load", even temporarily, for families dealing with difficult situations. May the goodness that you all spread, come back to you ten-fold!</p>
+                                    <a href="#" class="text-link font-weight-500"></a> 
+                                    <p class="bottom-text-testimonials">- Jacquie Bisquera and Family</p>
+                                </div>
+                                    
+                            </div> 
+
                             
                         </div>
                         
-                        <!-- vertical divider --> 
-                        <span class="dtr-pl-50 dtr-mr-20 dtr-border-right dtr-md-display-none"></span> 
-                        <!-- vertical divider ends --> 
                         
-                    </div>
-                    <!-- column 1 ends --> 
-                    
-                    <!-- column 2 starts -->
-                    <!-- <div class="col-12 col-lg-4">
-                        <div class="clearfix dtr-py-20">
-                            <ul class="dtr-border-list dtr-post-item-list">
-                                <li>
-                                    <h5>Go paperless. Reduce waste in landfills</h5>
-                                </li>
-                                <li>
-                                    <h5>Threat to Yellowstone’s grizzly bears</h5>
-                                </li>
-                                <li>
-                                    <h5>Rain-forests are disappearing due to urbanization</h5>
-                                </li>
-                                <li>
-                                    <h5>How to avoid indoor air pollution?</h5>
-                                </li>
-                                <li>
-                                    <h5>Climate change is affecting bird migration</h5>
-                                </li>
-                            </ul>
-                        </div>
-                    </div> -->
-                    <!-- column 2 ends --> 
-                    
+                        
+                    </div> 
                 </div>
                 <!-- main row ends --> 
                 
@@ -587,10 +685,10 @@
             <div class="container"> 
                 
                 <!-- row starts -->
-                <div class="row dtr-py-100"> 
+                 
                     
                     <!-- column 1 starts -->
-                    <div class="col-12 col-md-6">
+                    <div class="d-flex flex-column align-items-center justify-content-center">
                         <h4 class="color-white">Leave your message</h4>
                         
                         <!-- form starts -->
@@ -626,49 +724,7 @@
                         <p class="dtr-mt-20 color-white">* We don’t share your personal info. <br>
                             Check out our <a href="#" class="color-orange">Privacy Policy</a> for more information. </p>
                     </div>
-                    <!-- column 1 ends --> 
                     
-                    <!-- column 2 starts -->
-                    <div class="col-12 col-md-6 dtr-sm-mt-30">
-                        <h4 class="color-white">Walk-in our office</h4>
-                        
-                        <!-- map starts -->
-                        <div class="dtr-map clearfix dtr-p-10 bg-purple-muted">
-                            <div class="mapouter">
-                                <div class="gmap_canvas">
-                                    <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Envato%20Pty%20Ltd.%2C%20King%20Street%2C%20Melbourne%20VIC%2C%20Australia&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- map ends -->
-                        
-                        <h4 class="color-white dtr-mt-50">Contact Info</h4>
-                        
-                        <!-- nested row starts -->
-                        <div class="row"> 
-                            
-                            <!-- nested column 1 starts -->
-                            <div class="col-12 col-md-6 color-white">
-                                <p>Heartness Charity Organisation<br>
-                                    1234 Lorem ipsum, Dolor sit,<br>
-                                    City name - 43680. </p>
-                            </div>
-                            <!-- nested column 1 ends --> 
-                            
-                            <!-- nested column 2 starts -->
-                            <div class="col-12 col-md-6 color-white dtr-sm-mt-20">
-                                <p><i class="icon-envelope1 dtr-mr-15"></i><a href="mailto:sayhello@example.com" class="accent-color-hover">sayhello@example.com</a></p>
-                                <p><i class="icon-phone-alt dtr-mr-15"></i>123 456 7890/91/92</p>
-                            </div>
-                            <!-- nested column 2 ends --> 
-                            
-                        </div>
-                        <!-- nested row starts --> 
-                        
-                    </div>
-                    <!-- column 2 ends --> 
-                    
-                </div>
                 <!-- row ends --> 
                 
             </div>
