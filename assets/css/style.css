@@ -694,3 +694,12 @@ transform: rotate(360deg);
 .responsive-flex{
     flex-direction: row;
 }
+.top-title{
+    padding-top: 50px;
+}
+.best-font{
+    line-height: 68px ;
+}
+.video-image{
+    border-radius: 20px;
+}

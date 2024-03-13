@@ -302,4 +302,26 @@
     flex-direction: column;
     font-size: 1rem;
 }
+.padding-top-zerp-mobile{
+    padding-top: 0 !important;
+}
+.top-image-mobile{
+    border-radius: 15px 15px;
+}
+.top-title{
+    padding-top: 0 !important;
+}
+.smile-image-wrapper-mobile{
+    top:36px !important;
+    width: 140px !important;
+    height: 140px !important;
+}
+.smile-logo-mobile-static-img{
+    width: 80px;
+    top: 32px;
+    right: 30px;
+}
+.best-font{
+    line-height: 100px !important;
+}
 }
