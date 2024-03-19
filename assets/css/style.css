@@ -557,7 +557,7 @@ form label.error { font-size: 12px; }
 .dtr-form-row-2col-unequal .dtr-form-column { width: 70%; }
 .dtr-form-row-2col-unequal .dtr-form-column:last-child { width: 30%; }
 /*===== subscribe form =====*/
-.subscribe-form-wrapper { width: 100%; }
+.subscribe-form-wrapper { width: 50%; }
 .subscribe-form-email { position: relative; }
 .subscribe-form-email input[type="email"], .subscribe-form-email input[type="text"] { height: 64px; border-radius: 8px; }
 .subscribe-form-email input[type="email"] { padding-right: 170px; }
@@ -702,4 +702,21 @@ transform: rotate(360deg);
 }
 .video-image{
     border-radius: 20px;
+}
+.margin-bottom-5{
+    margin-bottom: 8rem ;
+}
+.dtr-section-back {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    width: 50%;
+    opacity: 0.2;
+}
+.paypal-donate-wrapper{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
 }

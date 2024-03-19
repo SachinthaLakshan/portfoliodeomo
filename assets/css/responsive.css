@@ -312,7 +312,7 @@
     padding-top: 0 !important;
 }
 .smile-image-wrapper-mobile{
-    top:36px !important;
+    top:132px !important;
     width: 140px !important;
     height: 140px !important;
 }
@@ -323,5 +323,22 @@
 }
 .best-font{
     line-height: 100px !important;
+}
+.margin-bottom-5{
+    margin-bottom: 2rem ;
+}
+.the-sitting-tree{
+    font-size: 2rem;
+}
+.dtr-section-back{
+    width: 90%;
+    top: 10rem;
+}
+.paypal-donate-wrapper{
+    flex-direction: column;
+    
+}
+.subscribe-form-wrapper{
+    width: 100% !important;
 }
 }
