@@ -341,4 +341,23 @@
 .subscribe-form-wrapper{
     width: 100% !important;
 }
+.hero-title-tree{
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    position: absolute;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
+.hero-title-tree h2{
+    font-size: 3rem;
+}
+.example:after {
+   
+    background-image: linear-gradient(to right, rgba(2, 2, 0,0.6) , rgba(2, 2, 0,0.6));
+}
+}
+
