@@ -559,8 +559,8 @@ form label.error { font-size: 12px; }
 /*===== subscribe form =====*/
 .subscribe-form-wrapper { width: 50%; }
 .subscribe-form-email { position: relative; }
-.subscribe-form-email input[type="email"], .subscribe-form-email input[type="text"] { height: 64px; border-radius: 8px; }
-.subscribe-form-email input[type="email"] { padding-right: 170px; }
+.subscribe-form-email input[type="number"], .subscribe-form-email input[type="text"] { height: 64px; border-radius: 8px; }
+.subscribe-form-email input[type="number"] { padding-right: 170px; }
 .subscribe-form-submit { position: absolute; right: 5px; top: 5px; }
 /*----------------------------------------*/
 /*===== 15 Elements =====*/
