@@ -153,6 +153,12 @@
 .funding-list h4{
     font-size: 1rem !important;
 }
+.headeritemmobile{
+    display: block;
+}
+.headeritemweb{
+    display: none !important;
+}
 }
 
 @media (max-width:768px) {
@@ -365,6 +371,12 @@
 
 .funding-list h4{
     font-size: 1rem !important;
+}
+.headeritemmobile{
+    display: block;
+}
+.headeritemweb{
+    display: none !important;
 }
 }
 
