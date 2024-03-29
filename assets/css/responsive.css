@@ -378,5 +378,8 @@
 .headeritemweb{
     display: none !important;
 }
+.dtr-main-content{
+    margin-top: 0rem;
+}
 }
 
