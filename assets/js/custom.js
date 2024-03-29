@@ -164,3 +164,30 @@ $(window).on('load', function(){
 	// preloader
 	$('.dtr-preloader').delay(400).fadeOut(500);
 }); // close on load
+
+// Get the link element
+var link = document.getElementById("donatelink");
+var link1 = document.getElementById("donatelink1");
+var link2 = document.getElementById("donatelink2");
+
+// Function to check screen size and update href
+function checkWidth() {
+  var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var newHref;
+
+  if (width < 768) { // Adjust breakpoint as needed
+    newHref = "#donatemobile";
+  } else {
+    newHref = "#donateweb";
+  }
+
+  link.href = newHref;
+  link1.href = newHref;
+  link2.href = newHref;
+}
+
+// Set initial href and attach onclick event
+link.onclick = checkWidth();
+
+// Re-check on window resize
+window.addEventListener("resize", checkWidth);
