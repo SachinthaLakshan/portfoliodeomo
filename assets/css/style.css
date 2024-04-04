@@ -777,3 +777,6 @@ transform: rotate(360deg);
 .dtr-main-content{
     margin-top: 4rem;
 }
+.section-pading-top{
+    padding-top: 130px;
+}

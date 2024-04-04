@@ -159,6 +159,9 @@
 .headeritemweb{
     display: none !important;
 }
+.section-pading-top{
+    padding-top: 60px !important;
+}
 }
 
 @media (max-width:768px) {
@@ -377,6 +380,9 @@
 }
 .headeritemweb{
     display: none !important;
+}
+.section-pading-top{
+    padding-top: 50px;
 }
 }
 
