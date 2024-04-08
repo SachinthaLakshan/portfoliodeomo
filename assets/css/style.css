@@ -780,3 +780,7 @@ transform: rotate(360deg);
 .section-pading-top{
     padding-top: 130px;
 }
+.dtr-py-50-contact{
+    padding-top: 50px;
+    padding-bottom: 180px;
+}
