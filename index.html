@@ -83,7 +83,33 @@
                 <!-- menu ends--> 
                 
                 <!-- header right starts -->
-                <div class="dtr-header-right"> <a  id="donatelink" class="dtr-btn btn-grad-orange dtr-scroll-link">Donate now</a> </div>
+                <div class="dtr-header-right">
+                    <fieldset>
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <div class="subscribe-form-email">
+                                <input type="hidden" name="amount" size="10" value="10.00">
+                                <input type="hidden" name="cmd" value="_donations">
+                                <input type="hidden" name="item_name" value="Donation">
+                                <input type="hidden" name="business" value="erik@thesittingtree.org">
+                                <input type="hidden" name="tax" value="0.00">
+                                <input type="hidden" name="no_note" value="1">
+                                <input type="hidden" name="no_shipping" value="1">
+                                <input type="hidden" name="charset" value="iso-8859-1">
+                                <input type="hidden" name="currency_code" value="USD">
+                                <input type="hidden" name="return" value="/donate-thanks.php">
+                                <input type="hidden" name="cancel_return" value="/donate.php">
+                                <input type="hidden" name="image_url" value="/images/toplogo.gif">
+                                <!-- <input type="image" style="position: relative;top: 7px;left: 5px;" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"> -->
+                                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                                <input type="hidden" name="hosted_button_id" value="XDGLM8V63FXBA">
+                                <a src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+                                    alt="PayPal - The safer, easier way to pay online!">
+                                    <button class="dtr-btn btn-grad-orange dtr-scroll-link"> Donate </button>
+                                </a>
+                            </div>
+                        </form>
+                    </fieldset>
+                </div>
                 <!-- header right ends --> 
                 
             </div>
@@ -103,7 +129,27 @@
                 <div class="hero-title-tree">
                     <h2 >The Sitting Tree</h2>
                     <h5>The Sitting Tree was formed to provide temporary relief to families in need..</h5>
-                    <div class="dtr-header-right"> <a  id="donatelink1" class="dtr-btn btn-grad-orange dtr-scroll-link">Donate now</a> </div>
+                    <div class="dtr-header-right">
+                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                            <input type="hidden" name="amount" size="10" value="10.00">
+                            <input type="hidden" name="cmd" value="_donations">
+                            <input type="hidden" name="item_name" value="Donation">
+                            <input type="hidden" name="business" value="erik@thesittingtree.org">
+                            <input type="hidden" name="tax" value="0.00">
+                            <input type="hidden" name="no_note" value="1">
+                            <input type="hidden" name="no_shipping" value="1">
+                            <input type="hidden" name="charset" value="iso-8859-1">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="return" value="/donate-thanks.php">
+                            <input type="hidden" name="cancel_return" value="/donate.php">
+                            <input type="hidden" name="image_url" value="/images/toplogo.gif">
+                            <input type="hidden" name="hosted_button_id" value="XDGLM8V63FXBA">
+                            <a src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+                                alt="PayPal - The safer, easier way to pay online!">
+                                <button class="dtr-btn btn-grad-orange dtr-scroll-link"> Donate </button>
+                            </a>
+                        </form>
+                    </div>
                 </div>
                 <img class="background-image" src="assets/images/slide-img3.jpg">
                 
@@ -375,7 +421,27 @@
                     <i class="icon-mbri-gift dtr-mr-40 dtr-rotate-minus20 text-size-xxl color-white"></i>
                     <p class="dtr-my-10 mr-auto dtr-md-mr-0 text-size-lg color-white">Every penny raised goes directly to families in need</p>
                     <!-- button --> 
-                    <a id="donatelink2" class="dtr-btn btn-grad-orange">Make a Donation</a> </div>
+                    <!-- <a id="donatelink2" class="dtr-btn btn-grad-orange">Make a Donation</a>  -->
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                        <input type="hidden" name="amount" size="10" value="10.00">
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="item_name" value="Donation">
+                        <input type="hidden" name="business" value="erik@thesittingtree.org">
+                        <input type="hidden" name="tax" value="0.00">
+                        <input type="hidden" name="no_note" value="1">
+                        <input type="hidden" name="no_shipping" value="1">
+                        <input type="hidden" name="charset" value="iso-8859-1">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="return" value="/donate-thanks.php">
+                        <input type="hidden" name="cancel_return" value="/donate.php">
+                        <input type="hidden" name="image_url" value="/images/toplogo.gif">
+                        <input type="hidden" name="hosted_button_id" value="XDGLM8V63FXBA">
+                        <a src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
+                            alt="PayPal - The safer, easier way to pay online!">
+                            <button class="dtr-btn btn-grad-orange"> Make a Donation </button>
+                        </a>
+                    </form>
+                </div>
             </div>
         </section>
         <!-- cta section ends
