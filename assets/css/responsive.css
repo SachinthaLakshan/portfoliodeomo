@@ -162,6 +162,9 @@
 .section-pading-top{
     padding-top: 60px !important;
 }
+.header-donate-btn{
+    display: flex !important;
+}
 }
 
 @media (max-width:768px) {
@@ -383,6 +386,9 @@
 }
 .section-pading-top{
     padding-top: 50px;
+}
+.header-donate-btn{
+    display: flex !important;
 }
 }
 

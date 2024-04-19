@@ -785,3 +785,13 @@ transform: rotate(360deg);
     display: flex;
     align-items: center;
 }
+.header-donate-btn{
+    display: none;
+    width: 100%;
+}
+.header-donate-btn .dtr-scroll-link{
+     padding-left: 10px;
+     padding-right: 10px;
+     margin: 10px;
+    
+}
