@@ -795,3 +795,6 @@ transform: rotate(360deg);
      margin: 10px;
     
 }
+.visibility-off{
+    visibility: hidden;
+}
