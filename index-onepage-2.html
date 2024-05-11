@@ -24,16 +24,16 @@
     <link href="css/jquery.countdown.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <!-- color scheme -->
-    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" />
+    <link id="colors" href="css/colors/scheme-02.css" rel="stylesheet" type="text/css" />
     <link href="css/coloring.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <div id="wrapper">
-        <div id="topbar" class="text-white bg-color topbar-noborder">
+        <div id="topbar" class="topbar-noborder topbar-dark">
             <div class="container">
                 <div class="topbar-left sm-hide">
-                    <span class="topbar-widget tb-social ">
+                    <span class="topbar-widget tb-social">
                         <a href="#"><i class="fa fa-facebook"></i></a>
                         <a href="#"><i class="fa fa-twitter"></i></a>
                         <a href="#"><i class="fa fa-instagram"></i></a>
@@ -48,7 +48,7 @@
             </div>
         </div>
         <!-- header begin -->
-        <header class="header-light transparent">
+        <header class="transparent">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -57,7 +57,7 @@
                                 <!-- logo begin -->
                                 <div id="logo">
                                     <a href="index.html">
-                                        <img alt="" class="logo" src="images/logo-light.png" />
+                                        <img alt="" class="logo" src="images/logo-light-red.png" />
                                         <img alt="" class="logo-2" src="images/logo.png" />
                                     </a>
                                 </div>
@@ -66,43 +66,12 @@
                             <div class="de-flex-col header-col-mid">
                                 <!-- mainmenu begin -->
                                 <ul id="mainmenu">
-                                    <li><a href="index.html">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Homepage 1</a></li>
-                                            <li><a href="index-2.html">Homepage 2</a></li>
-                                            <li><a href="index-onepage.html">Onepage 1</a></li>
-                                            <li><a href="index-onepage-2.html">Onepage 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="events.html">Events</a></li>
-                                    <li><a href="about.html">About</a>
-                                        <ul>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="news.html">News</a></li>
-                                    <li><a href="store.html">Store</a>
-                                        <ul>
-                                            <li><a href="store.html">All Products</a></li>
-                                            <li><a href="store-single.html">Single Product</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">More</a>
-                                        <ul>
-                                            <li><a href="alerts.html">Alerts</a></li>
-                                            <li><a href="counters.html">Counters</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="icon-set-1.html">Icon Set 1</a></li>
-                                            <li><a href="modal.html">Modal</a></li>
-                                            <li><a href="progress-bar.html">Progress Bar</a></li>
-                                            <li><a href="steps.html">Steps</a></li>
-                                            <li><a href="tabs.html">Tabs</a></li>
-                                            <li><a href="testimonials.html">Testimonials</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#section-home">Home</a></li>
+                                    <li><a href="#section-events">Events</a></li>
+                                    <li><a href="#section-services">Services</a></li>
+                                    <li><a href="#section-how">How It Works</a></li>
+                                    <li><a href="#section-news">News</a></li>
+                                    <li><a href="#section-contact">Contact</a></li>
                                 </ul>
                                 <!-- mainmenu close -->
                             </div>
@@ -119,10 +88,10 @@
         <!-- content begin -->
         <div class="no-bottom no-top" id="content">
             <div id="top"></div>
-            <section id="section-home" aria-label="section" data-bgimage="url(images/background/bg-1.jpg) top" data-stellar-background-ratio=".2">
+            <section id="section-home" class="text-light" aria-label="section" data-bgimage="url(images/background/bg-4.jpg) top" data-stellar-background-ratio=".2">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-lg-5 col-md-6 col-8">
+                        <div class="col-lg-5">
                             <div class="spacer-double"></div>
                             <h4 class="s1 id-color">Welcome</h4>
                             <div class="spacer-10"></div>
@@ -132,6 +101,135 @@
                             <a class="btn-custom wow fadeInUp scroll-to" data-wow-delay="1s" href="#section-events">Tell Me How</a>
                             <div class="spacer-double"></div>
                         </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-color text-light pt40 pb40">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay="0s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="600" data-speed="3000">0</span>+</h3>
+                                <h5 class="text-white-op-5">Trainings</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".25s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="120" data-speed="3000">0</span>k</h3>
+                                <h5 class="text-white-op-5">Participants</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".4s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="85" data-speed="3000">0</span></h3>
+                                <h5 class="text-white-op-5">Companies</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".6s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="50" data-speed="3000">0</span>k</h3>
+                                <h5 class="text-white-op-5">Topics</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".8s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="100" data-speed="3000">0</span>+</h3>
+                                <h5 class="text-white-op-5">Countries</h5>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay="1s">
+                            <div class="de_count">
+                                <h3><span class="timer" data-to="20" data-speed="3000">0</span></h3>
+                                <h5 class="text-white-op-5">Speakers</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>            
+            <section id="section-about" class="relative">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span class="p-title">About Us</span><br>
+                            <h2>
+                                Welcome to the<br>Next Level.
+                            </h2>
+                            <div class="small-border sm-left"></div>
+                        </div>
+                        <div class="col-md-4">
+                            <p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.
+                            </p>
+                        </div>
+                        <div class="col-md-4">
+                            <blockquote>There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed.<span class="by">- Ray Goforth</span>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section-how" data-bgcolor="#2A2E37" class="text-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2>How It Works?</h2>
+                                <div class="small-border"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section aria-label="section" data-bgcolor="#E4E6E9" class="no-top relative">
+                <div class="container">
+                    <div class="row">
+                       
+                        <div class="col-md-12 mt-70 relative">
+                            <div class="de_tab tab_steps">
+                                <ul class="de_nav owl-carousel owl-theme" id="de_nav_carousel">
+                                    <li class="active wow zoomIn" data-wow-delay="0s"><span>Join</span>
+                                        <div class="v-border"></div>
+                                    </li>
+                                    <li class="wow zoomIn" data-wow-delay=".4s"><span>Connect</span>
+                                        <div class="v-border"></div>
+                                    </li>
+                                    <li class="wow zoomIn" data-wow-delay=".8s"><span>Explore</span>
+                                        <div class="v-border"></div>
+                                    </li>
+                                    <li class="wow zoomIn" data-wow-delay="1.2s"><span>Grow</span>
+                                        <div class="v-border"></div>
+                                    </li>
+                                    <li class="wow zoomIn" data-wow-delay="1.6s"><span>Success</span>
+                                        <div class="v-border"></div>
+                                    </li>
+                                </ul>
+
+                                <div class="de_tab_content" id="de_carousel_content">
+
+                                    <div id="tab1">
+                                        Laborum sint dolor veniam ea labore commodo sint esse tempor fugiat tempor deserunt in eu incididunt ullamco dolore mollit culpa pariatur culpa sunt aute cillum ea non non voluptate consequat occaecat enim quis dolore sed eu mollit laborum mollit commodo nisi adipisicing reprehenderit esse incididunt duis sint veniam nisi ut enim exercitation officia minim proident cupidatat esse officia in mollit id fugiat ut cupidatat occaecat nostrud qui esse quis et consectetur laborum ut eiusmod laboris in anim consequat eu reprehenderit dolore id officia non ex aute in minim dolor irure voluptate deserunt in ad eu aute ullamco nulla incididunt nisi laborum reprehenderit aute nulla ex aute laboris proident elit laborum officia voluptate do sit labore anim dolore sed deserunt adipisicing eiusmod labore commodo id reprehenderit id ea ut ullamco cillum quis reprehenderit ad ad ut.
+                                    </div>
+
+                                    <div id="tab2">
+                                        Sunt minim est commodo pariatur consectetur nulla dolor deserunt excepteur non ex exercitation et ullamco et tempor dolor ut mollit dolore sed ut sed in do amet laboris elit id esse exercitation laborum aute adipisicing mollit incididunt nisi cillum consequat reprehenderit laboris veniam officia cillum sunt esse eiusmod ea voluptate officia in sit sunt mollit officia nulla cupidatat dolor est anim esse consectetur veniam aute quis ut consectetur irure officia elit reprehenderit aute duis in reprehenderit exercitation in fugiat cillum proident proident dolore irure esse laborum non ut commodo ut officia aliqua qui ullamco in ea consequat est cupidatat quis eiusmod sint fugiat dolor pariatur velit nulla fugiat dolor aliqua nisi consequat sunt in amet ad ad ex duis culpa do ut exercitation sunt nostrud excepteur proident sint quis et mollit aute culpa et exercitation proident aliqua ad eiusmod cupidatat est minim deserunt non cupidatat sit ut non duis magna ut aliqua dolore eu ut irure in laborum ut minim consectetur non sed nulla veniam labore in elit nostrud esse ut eu aliqua sunt occaecat est officia enim aute exercitation occaecat esse dolore dolore sit ad.
+                                    </div>
+
+                                    <div id="tab3">
+                                        Aliqua cupidatat commodo laborum ut sed incididunt sunt sed veniam mollit labore eiusmod ullamco veniam consequat cupidatat sint dolore elit do proident est ut quis veniam reprehenderit duis duis in officia laborum in quis id et excepteur excepteur est pariatur dolore dolor reprehenderit sunt ullamco culpa mollit voluptate ut duis reprehenderit pariatur nulla aliquip veniam deserunt laborum adipisicing dolore do laborum et et labore aute occaecat mollit id labore aliquip duis et quis ut non aliquip culpa anim ut duis laboris adipisicing cupidatat ex est deserunt consequat ut in labore non nulla deserunt minim fugiat ut nostrud consectetur laborum elit eu culpa labore in dolor sit aliqua laborum in dolor enim eiusmod in sunt amet occaecat nisi eu laboris aliqua commodo nisi in aliquip tempor cillum eu velit irure et dolor est esse mollit tempor commodo voluptate ut ut reprehenderit eiusmod.
+                                    </div>
+
+                                    <div id="tab4">
+                                        Lorem ipsum fugiat culpa dolore enim minim ullamco adipisicing ea ullamco pariatur ex et labore id in non laboris culpa amet consequat occaecat minim culpa mollit ullamco quis elit cupidatat sed in reprehenderit in duis eiusmod est exercitation dolore ex pariatur consequat occaecat ad mollit dolor ullamco in eiusmod sit ex minim officia magna sit esse consectetur eiusmod in dolore in occaecat sunt anim reprehenderit irure esse nisi in elit consequat consequat nostrud do amet culpa deserunt laborum sit eiusmod do consequat aliqua sit dolore nulla ut irure nostrud qui consectetur aliquip veniam sit anim dolor ad do tempor dolore dolore ullamco incididunt ad exercitation fugiat id ex reprehenderit eu proident est proident incididunt aliquip in nisi nulla nulla consequat dolore eiusmod dolor nisi consequat proident nisi enim dolor consequat ex excepteur labore anim velit proident irure sunt occaecat aliqua exercitation proident magna ut excepteur ad est ut dolor ullamco qui ut ad dolor enim eiusmod irure culpa mollit quis enim do sed excepteur exercitation dolor do dolore enim officia elit dolore aliquip velit fugiat do dolore ut labore ullamco dolore proident mollit ea exercitation labore non duis consequat sunt ut sed occaecat fugiat est sed fugiat in in anim incididunt veniam in aliquip voluptate mollit aliquip proident eiusmod sit nisi dolore ex anim et ut consequat elit aute sunt pariatur reprehenderit anim in cupidatat aute nostrud quis ea voluptate velit elit dolor nostrud excepteur deserunt commodo sunt aliquip cillum.
+                                    </div>
+
+                                    <div id="tab5">
+                                        Elit laborum culpa id eiusmod laboris esse ad qui duis sint in enim in mollit aute culpa sit dolor ut magna sunt et sed veniam dolor minim voluptate duis eu id labore in elit veniam est pariatur dolor commodo eu officia enim deserunt fugiat do amet incididunt cupidatat proident reprehenderit dolor tempor nisi elit ea id esse esse consectetur enim laborum proident labore ullamco aute sed tempor laboris commodo sint aliqua est dolore deserunt esse ea commodo magna qui magna sit dolor eu officia dolore nulla eu magna ex commodo aute occaecat ea eu laborum aute laboris ad voluptate pariatur excepteur cupidatat incididunt sit in qui laboris deserunt velit cupidatat aliqua cupidatat magna veniam nulla amet tempor ad est quis aute pariatur id ea cupidatat exercitation qui pariatur eiusmod adipisicing minim dolore aute ullamco occaecat in anim do culpa est sit exercitation eiusmod quis ea velit sed eiusmod deserunt esse deserunt exercitation incididunt quis irure quis eiusmod cupidatat est commodo adipisicing laboris irure proident ut do in ad consequat exercitation dolore dolore ad irure excepteur aliqua deserunt irure nisi laboris.
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -232,28 +330,80 @@
                     </div>
                 </div>
             </section>
-            <section id="section-about" class="relative">
+            <section id="section-methods">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
-                            <span class="p-title">About Us</span><br>
-                            <h2>
-                                Welcome to the<br>Next Level.
-                            </h2>
-                            <div class="small-border sm-left"></div>
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <h2>Our Method</h2>
+                                <div class="small-border"></div>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <p>Consequat occaecat ullamco amet non eiusmod nostrud dolore irure incididunt est duis anim sunt officia. Fugiat velit proident aliquip nisi incididunt nostrud exercitation proident est nisi. Irure magna elit commodo anim ex veniam culpa eiusmod id nostrud sit cupidatat in veniam ad. Eiusmod consequat eu adipisicing minim anim aliquip cupidatat culpa excepteur quis. Occaecat sit eu exercitation irure Lorem incididunt nostrud.
-                            </p>
+                        
+                        <div class="col-lg-4 col-md-6 mb30">
+                            <div class="f-box f-icon-left f-icon-rounded">
+                                <i class="fa fa-book bg-color text-white"></i>
+                                <div class="fb-text">
+                                    <h4>Edutainment</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-4">
-                            <blockquote>There are two types of people who will tell you that you cannot make a difference in this world: those who are afraid to try and those who are afraid you will succeed.<span class="by">- Ray Goforth</span>
-                            </blockquote>
+                        <div class="col-lg-4 col-md-6 mb30">
+                            <div class="f-box f-icon-left f-icon-rounded">
+                                <i class="fa fa-pencil bg-color text-white"></i>
+                                <div class="fb-text">
+                                    <h4>Experential Learning</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb30">
+                            <div class="f-box f-icon-left f-icon-rounded">
+                                <i class="fa fa-search bg-color text-white"></i>
+                                <div class="fb-text">
+                                    <h4>Self Discovery</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb30">
+                            <div class="f-box f-icon-left f-icon-rounded">
+                                <i class="fa fa-video-camera bg-color text-white"></i>
+                                <div class="fb-text">
+                                    <h4>Inspirational Movie</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb30">
+                            <div class="f-box f-icon-left f-icon-rounded">
+                                <i class="fa fa-gears bg-color text-white"></i>
+                                <div class="fb-text">
+                                    <h4>Simulation</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb30">
+                            <div class="f-box f-icon-left f-icon-rounded">
+                                <i class="fa fa-child bg-color text-white"></i>
+                                <div class="fb-text">
+                                    <h4>Fun Games</h4>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="section-services" class="no-top no-bottom" data-bgcolor="#e4e6e9" data-bgimage="url(images/background/bg-1.png) bottom #e4e6e9">
+            <section id="section-services" class="no-top no-bottom text-light" data-bgimage="url(images/background/bg-1b.png) bottom #2a2e37">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-5 offset-md-7">
@@ -290,188 +440,7 @@
                 </div>
                 <div class="image-container col-md-6 pull-right" data-bgimage="url(images/background/bg-3.jpg) center"></div>
                 <div class="clearfix"></div>
-            </section>
-            <section class="bg-color text-light pt40 pb40">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay="0s">
-                            <div class="de_count">
-                                <h3><span class="timer" data-to="600" data-speed="3000">0</span>+</h3>
-                                <h5 class="text-white-op-5">Trainings</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".25s">
-                            <div class="de_count">
-                                <h3><span class="timer" data-to="120" data-speed="3000">0</span>k</h3>
-                                <h5 class="text-white-op-5">Participants</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".4s">
-                            <div class="de_count">
-                                <h3><span class="timer" data-to="85" data-speed="3000">0</span></h3>
-                                <h5 class="text-white-op-5">Companies</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".6s">
-                            <div class="de_count">
-                                <h3><span class="timer" data-to="50" data-speed="3000">0</span>k</h3>
-                                <h5 class="text-white-op-5">Topics</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay=".8s">
-                            <div class="de_count">
-                                <h3><span class="timer" data-to="100" data-speed="3000">0</span>+</h3>
-                                <h5 class="text-white-op-5">Countries</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-md-3 col-sm-6 wow fadeInUp mb-sm-30" data-wow-delay="1s">
-                            <div class="de_count">
-                                <h3><span class="timer" data-to="20" data-speed="3000">0</span></h3>
-                                <h5 class="text-white-op-5">Speakers</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-methods">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="text-center">
-                                <h2>Our Method</h2>
-                                <div class="small-border"></div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-lg-4 col-md-6 mb30">
-                            <div class="f-box f-icon-left f-icon-rounded">
-                                <i class="fa fa-book id-color bg-color-op-1"></i>
-                                <div class="fb-text">
-                                    <h4>Edutainment</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb30">
-                            <div class="f-box f-icon-left f-icon-rounded">
-                                <i class="fa fa-pencil id-color bg-color-op-1"></i>
-                                <div class="fb-text">
-                                    <h4>Experential Learning</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb30">
-                            <div class="f-box f-icon-left f-icon-rounded">
-                                <i class="fa fa-search id-color bg-color-op-1"></i>
-                                <div class="fb-text">
-                                    <h4>Self Discovery</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb30">
-                            <div class="f-box f-icon-left f-icon-rounded">
-                                <i class="fa fa-video-camera id-color bg-color-op-1"></i>
-                                <div class="fb-text">
-                                    <h4>Inspirational Movie</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb30">
-                            <div class="f-box f-icon-left f-icon-rounded">
-                                <i class="fa fa-gears  id-color bg-color-op-1"></i>
-                                <div class="fb-text">
-                                    <h4>Simulation</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb30">
-                            <div class="f-box f-icon-left f-icon-rounded">
-                                <i class="fa fa-child id-color bg-color-op-1"></i>
-                                <div class="fb-text">
-                                    <h4>Fun Games</h4>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="section-how" data-bgcolor="#2A2E37" class="text-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="text-center">
-                                <h2>How It Works?</h2>
-                                <div class="small-border"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section aria-label="section" data-bgcolor="#E4E6E9" class="no-top relative">
-                <div class="container">
-                    <div class="row">
-                       
-                        <div class="col-md-12 mt-70 relative">
-                            <div class="de_tab tab_steps">
-                                <ul class="de_nav owl-carousel owl-theme" id="de_nav_carousel">
-                                    <li class="active wow zoomIn" data-wow-delay="0s"><span>Join</span>
-                                        <div class="v-border"></div>
-                                    </li>
-                                    <li class="wow zoomIn" data-wow-delay=".4s"><span>Connect</span>
-                                        <div class="v-border"></div>
-                                    </li>
-                                    <li class="wow zoomIn" data-wow-delay=".8s"><span>Explore</span>
-                                        <div class="v-border"></div>
-                                    </li>
-                                    <li class="wow zoomIn" data-wow-delay="1.2s"><span>Grow</span>
-                                        <div class="v-border"></div>
-                                    </li>
-                                    <li class="wow zoomIn" data-wow-delay="1.6s"><span>Success</span>
-                                        <div class="v-border"></div>
-                                    </li>
-                                </ul>
-
-                                <div class="de_tab_content" id="de_carousel_content">
-
-                                    <div id="tab1">
-                                        Laborum sint dolor veniam ea labore commodo sint esse tempor fugiat tempor deserunt in eu incididunt ullamco dolore mollit culpa pariatur culpa sunt aute cillum ea non non voluptate consequat occaecat enim quis dolore sed eu mollit laborum mollit commodo nisi adipisicing reprehenderit esse incididunt duis sint veniam nisi ut enim exercitation officia minim proident cupidatat esse officia in mollit id fugiat ut cupidatat occaecat nostrud qui esse quis et consectetur laborum ut eiusmod laboris in anim consequat eu reprehenderit dolore id officia non ex aute in minim dolor irure voluptate deserunt in ad eu aute ullamco nulla incididunt nisi laborum reprehenderit aute nulla ex aute laboris proident elit laborum officia voluptate do sit labore anim dolore sed deserunt adipisicing eiusmod labore commodo id reprehenderit id ea ut ullamco cillum quis reprehenderit ad ad ut.
-                                    </div>
-
-                                    <div id="tab2">
-                                        Sunt minim est commodo pariatur consectetur nulla dolor deserunt excepteur non ex exercitation et ullamco et tempor dolor ut mollit dolore sed ut sed in do amet laboris elit id esse exercitation laborum aute adipisicing mollit incididunt nisi cillum consequat reprehenderit laboris veniam officia cillum sunt esse eiusmod ea voluptate officia in sit sunt mollit officia nulla cupidatat dolor est anim esse consectetur veniam aute quis ut consectetur irure officia elit reprehenderit aute duis in reprehenderit exercitation in fugiat cillum proident proident dolore irure esse laborum non ut commodo ut officia aliqua qui ullamco in ea consequat est cupidatat quis eiusmod sint fugiat dolor pariatur velit nulla fugiat dolor aliqua nisi consequat sunt in amet ad ad ex duis culpa do ut exercitation sunt nostrud excepteur proident sint quis et mollit aute culpa et exercitation proident aliqua ad eiusmod cupidatat est minim deserunt non cupidatat sit ut non duis magna ut aliqua dolore eu ut irure in laborum ut minim consectetur non sed nulla veniam labore in elit nostrud esse ut eu aliqua sunt occaecat est officia enim aute exercitation occaecat esse dolore dolore sit ad.
-                                    </div>
-
-                                    <div id="tab3">
-                                        Aliqua cupidatat commodo laborum ut sed incididunt sunt sed veniam mollit labore eiusmod ullamco veniam consequat cupidatat sint dolore elit do proident est ut quis veniam reprehenderit duis duis in officia laborum in quis id et excepteur excepteur est pariatur dolore dolor reprehenderit sunt ullamco culpa mollit voluptate ut duis reprehenderit pariatur nulla aliquip veniam deserunt laborum adipisicing dolore do laborum et et labore aute occaecat mollit id labore aliquip duis et quis ut non aliquip culpa anim ut duis laboris adipisicing cupidatat ex est deserunt consequat ut in labore non nulla deserunt minim fugiat ut nostrud consectetur laborum elit eu culpa labore in dolor sit aliqua laborum in dolor enim eiusmod in sunt amet occaecat nisi eu laboris aliqua commodo nisi in aliquip tempor cillum eu velit irure et dolor est esse mollit tempor commodo voluptate ut ut reprehenderit eiusmod.
-                                    </div>
-
-                                    <div id="tab4">
-                                        Lorem ipsum fugiat culpa dolore enim minim ullamco adipisicing ea ullamco pariatur ex et labore id in non laboris culpa amet consequat occaecat minim culpa mollit ullamco quis elit cupidatat sed in reprehenderit in duis eiusmod est exercitation dolore ex pariatur consequat occaecat ad mollit dolor ullamco in eiusmod sit ex minim officia magna sit esse consectetur eiusmod in dolore in occaecat sunt anim reprehenderit irure esse nisi in elit consequat consequat nostrud do amet culpa deserunt laborum sit eiusmod do consequat aliqua sit dolore nulla ut irure nostrud qui consectetur aliquip veniam sit anim dolor ad do tempor dolore dolore ullamco incididunt ad exercitation fugiat id ex reprehenderit eu proident est proident incididunt aliquip in nisi nulla nulla consequat dolore eiusmod dolor nisi consequat proident nisi enim dolor consequat ex excepteur labore anim velit proident irure sunt occaecat aliqua exercitation proident magna ut excepteur ad est ut dolor ullamco qui ut ad dolor enim eiusmod irure culpa mollit quis enim do sed excepteur exercitation dolor do dolore enim officia elit dolore aliquip velit fugiat do dolore ut labore ullamco dolore proident mollit ea exercitation labore non duis consequat sunt ut sed occaecat fugiat est sed fugiat in in anim incididunt veniam in aliquip voluptate mollit aliquip proident eiusmod sit nisi dolore ex anim et ut consequat elit aute sunt pariatur reprehenderit anim in cupidatat aute nostrud quis ea voluptate velit elit dolor nostrud excepteur deserunt commodo sunt aliquip cillum.
-                                    </div>
-
-                                    <div id="tab5">
-                                        Elit laborum culpa id eiusmod laboris esse ad qui duis sint in enim in mollit aute culpa sit dolor ut magna sunt et sed veniam dolor minim voluptate duis eu id labore in elit veniam est pariatur dolor commodo eu officia enim deserunt fugiat do amet incididunt cupidatat proident reprehenderit dolor tempor nisi elit ea id esse esse consectetur enim laborum proident labore ullamco aute sed tempor laboris commodo sint aliqua est dolore deserunt esse ea commodo magna qui magna sit dolor eu officia dolore nulla eu magna ex commodo aute occaecat ea eu laborum aute laboris ad voluptate pariatur excepteur cupidatat incididunt sit in qui laboris deserunt velit cupidatat aliqua cupidatat magna veniam nulla amet tempor ad est quis aute pariatur id ea cupidatat exercitation qui pariatur eiusmod adipisicing minim dolore aute ullamco occaecat in anim do culpa est sit exercitation eiusmod quis ea velit sed eiusmod deserunt esse deserunt exercitation incididunt quis irure quis eiusmod cupidatat est commodo adipisicing laboris irure proident ut do in ad consequat exercitation dolore dolore ad irure excepteur aliqua deserunt irure nisi laboris.
-                                    </div>
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
+            </section>            
             <section id="section-news" aria-label="section">
                 <div class="container">
                     <div class="row">
@@ -537,7 +506,7 @@
                     </div>
                 </div>
             </section>
-            <section aria-label="section" class="text-light" data-bgimage="url(images/background/bg-2.jpg) top" data-stellar-background-ratio=".2">
+            <section aria-label="section" class="text-light" data-bgimage="url(images/background/bg-5.jpg) top" data-stellar-background-ratio=".2">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -633,7 +602,7 @@
             </section>
 
             <!-- section begin -->
-            <section id="section-contact" data-bgimage="url(images/background/bg-2.png) bottom #e4e6e9">
+            <section id="section-contact" data-bgimage="url(images/background/bg-2b.png) bottom #e4e6e9">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
@@ -695,7 +664,7 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="widget">
-                            <a href="index.html"><img alt="" class="img-fluid mb20" src="images/logo-light.png"></a>
+                            <a href="index.html"><img alt="" class="img-fluid mb20" src="images/logo-light-red.png"></a>
                             <address class="s1">
                                 <span><i class="id-color fa fa-map-marker fa-lg"></i>08 W 36th St, New York, NY 10001</span>
                                 <span><i class="id-color fa fa-phone fa-lg"></i>1 200 300 9000</span>
